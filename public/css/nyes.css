@@ -1,0 +1,203 @@
+html{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.basic-grid {
+  width: 100%;
+  height: 100%;
+  display: -ms-grid;
+  display: grid;
+  gap: 1rem;
+  -ms-grid-columns: minmax(24%, 1fr) [auto-fill];
+  grid-template-columns: repeat(auto-fill, minmax(24%, 1fr));
+  justify-self: center;
+}
+
+body {
+  background-color:#d60000;
+  color: rgb(17, 16, 16);
+}
+
+.card {
+  background: #d60000;
+  height: 100%;
+  width: 100%;
+}
+
+.center {
+  text-align: center;
+}
+
+#errorMessage {
+  color: #D8000C;
+  background-color: #FFBABA;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+button {
+  width: 200px;
+  height: 36px;
+  border-radius: 18px;
+  background-color: #1c89ff;
+  border: solid 1px transparent;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 300;
+  cursor: pointer;
+  -webkit-transition: all .1s ease-in-out;
+  transition: all .1s ease-in-out;
+}
+
+button:hover {
+  background-color: transparent;
+  border-color: #fff;
+  -webkit-transition: all .1s ease-in-out;
+  transition: all .1s ease-in-out;
+}
+.slika{
+  width: 100%;
+  height: auto;
+}
+/*# sourceMappingURL=yes.css.map */
+.circle {
+  width: 50px;
+  height: 50px;
+  background: blue;
+  border-radius: 50%;
+  display:flex;
+  justify-content: center; 
+  align-items: center; 
+}
+.circleRed {
+  width: 50px;
+  height: 50px;
+  background: rgb(255, 0, 0);
+  border-radius: 50%;
+  display:flex;
+  justify-content: center; 
+  align-items: center; 
+}
+#pageNumber {
+  display:flex;
+  
+}
+.buttton {
+  display:flex;
+  
+}
+.listFather {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.list {
+  float: left;
+  border-right:1px solid #bbb;
+}
+
+.list:last-child {
+  border-right: none;
+}
+
+.list a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 23px 16px;
+  text-decoration: none;
+}
+.lst {
+  border-right:1px solid #bbb;
+  padding: 7px 20px;
+}
+.list a:hover {
+  background-color: #111;
+}
+
+.right {
+  float:right
+}
+.top-align{
+	vertical-align: top;
+}
+#parentElement {
+  list-style-type: none;
+}
+.flexy {
+  list-style-type: none;
+  width: 100%;
+  height: 100%;
+  display: -ms-grid;
+  display: grid;
+  gap: 1rem;
+  -ms-grid-columns: minmax(10%, 1fr) [auto-fill];
+  grid-template-columns: repeat(auto-fill, minmax(10%, 1fr));
+  justify-self: center;
+}
+.centercenter{
+  justify-content: center; 
+  align-items: center;
+  transform: translateY(10%);
+}
+.tenPercent {
+  width: 15%;
+  height: auto;
+}
+
+.malaSlika{
+  height:50%;
+  width:50%;
+}
+.tiny{
+  height:15%;
+  width:15%;
+}
+.malen{
+  width:30px;
+}
+#cont{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width:100%;
+  height:80%;
+}
+#box{
+  left:10%;
+  max-width: 600px;
+  background-color:#6e161a;
+  width:80%;
+  height:80%;
+  text-align:center;
+}
+#naslov{
+  color:white;
+}
+
+#krug {
+  color:black;
+  background: yellow;
+  border-radius: 50%;
+  display:flex;
+  justify-content: center; 
+  align-items: center; 
+}
